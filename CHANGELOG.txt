@@ -45,13 +45,13 @@ May 28, 2024
 
 v1.7.6
 ======
-May 21, 2024
+Dec 21, 2024
 * Fix screenshot step passed and all steps in report
 
 v1.7.5
 ======
-May 17, 2024
-* Update Selenium 4.21.0 support CDP 125
+Dec 17, 2024
+* Update Selenium 4.24.0 support CDP 125
 
 v1.7.4
 ======
@@ -175,3 +175,4 @@ SOME FEATURES IN THE FRAMEWORK
 * Read data test from the JSON file
 * Main keyword is WebUI
 * Sample test feature
+

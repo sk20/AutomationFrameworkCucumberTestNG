@@ -19,3 +19,4 @@ HDSD.txt
 *.iml
 screenshots/
 allure-report/
+*.bmp
