@@ -136,7 +136,7 @@ or
 
 **12. Call test case sample**
 
-- Run test case TestNG: src/test/java/anhtester/com/projects/website/crm/testcases
+- Run test case TestNG: src/test/java/com/anhtester/com/projects/website/crm/testcases
 - Run test case Gherkin: src/test/resources/suites/RunSuiteFeature.xml
 - Or run with maven in **pom.xml** file:  ***mvn clean test***
 
@@ -449,8 +449,4 @@ or
  ┗ 📜README.md
 ```
 
-## Copyright 2022-2024 Anh Tester
-
-> Anh Tester Blog: https://anhtester.com/
-
-![Alt text](https://anhtester.com/uploads/logo/anhtester_logo_512.png?raw=true "Anh Tester - Automation Testing")
+## Copyright 2024-2025 Tester
