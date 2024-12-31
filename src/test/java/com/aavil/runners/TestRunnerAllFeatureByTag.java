@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {
-                "com.anhtester.projects.website.crm.stepdefinitions",
+                "com.aavil.projects.website.crm.stepdefinitions",
                 "com.aavil.projects.website.cms.stepdefinitions",
-                "com.anhtester.projects.website.hrm.stepdefinitions",
-                "com.anhtester.hooks"
+                "com.aavil.projects.website.hrm.stepdefinitions",
+                "com.aavil.hooks"
         },
         plugin = {
-                "com.anhtester.hooks.CucumberListener",
+                "com.aavil.hooks.CucumberListener",
                 "pretty",
                 "html:target/cucumber-reports/cucumber-reports.html",
                 "json:target/cucumber-reports/cucumber-reports.json",

@@ -10,10 +10,10 @@ import org.testng.annotations.Test;
         features = "src/test/resources/features/LoginCMS.feature",
         glue = {
                 "com.aavil.projects.website.cms.stepdefinitions",
-                "com.anhtester.hooks"
+                "com.aavil.hooks"
         },
         plugin = {
-                "com.anhtester.hooks.CucumberListener",
+                "com.aavil.hooks.CucumberListener",
                 "pretty",
                 "html:target/cucumber-reports/TestRunnerLoginCMS.html",
                 "json:target/cucumber-reports/TestRunnerLoginCMS.json",

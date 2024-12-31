@@ -9,11 +9,11 @@ import org.testng.annotations.Test;
 @CucumberOptions(
         features = "src/test/resources/features/SigninCRM.feature",
         glue = {
-                "com.anhtester.projects.website.crm.stepdefinitions",
-                "com.anhtester.hooks"
+                "com.aavil.projects.website.crm.stepdefinitions",
+                "com.aavil.hooks"
         },
         plugin = {
-                "com.anhtester.hooks.CucumberListener",
+                "com.aavil.hooks.CucumberListener",
                 "pretty",
                 "html:target/cucumber-reports/TestRunnerSigninCRM.html",
                 "json:target/cucumber-reports/TestRunnerSigninCRM.json",

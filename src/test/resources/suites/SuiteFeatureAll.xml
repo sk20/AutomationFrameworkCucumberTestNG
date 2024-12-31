@@ -4,9 +4,9 @@
     <test name="Test Cucumber All Feature">
         <parameter name="BROWSER" value="chrome"/>
         <classes>
-            <class name="com.anhtester.runners.TestRunnerLoginCMS"/>
-            <class name="com.anhtester.runners.TestRunnerSigninCRM"/>
-            <class name="com.anhtester.runners.TestRunnerDashboardHRM"/>
+            <class name="com.aavil.runners.TestRunnerLoginCMS"/>
+            <class name="com.aavil.runners.TestRunnerSigninCRM"/>
+            <class name="com.aavil.runners.TestRunnerDashboardHRM"/>
         </classes>
     </test>
 </suite>
